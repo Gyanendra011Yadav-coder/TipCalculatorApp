@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Tip Calculator</string>
+    <string name="not_bad_10">Not Bad (10 %)</string>
 </resources>
