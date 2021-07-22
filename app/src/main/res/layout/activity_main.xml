@@ -30,34 +30,34 @@
 
     <RadioGroup
         android:id="@+id/tip_options"
-        android:checkedButton="@+id/twenty_percent_tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/service_question"
         android:layout_constraintStart_toStartOf="parent"
-        android:layout_constraintTop_toBottomOf="@id/service_question">
+        android:checkedButton="@+id/twenty_percent_tip"
+        android:orientation="vertical"
+       >
+
         <RadioButton
             android:id="@+id/twenty_percent_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Amazing (20 %)"/>
+            android:text="Amazing (20 %)" />
+
         <RadioButton
             android:id="@+id/eighteen_percent_tip"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Good (18 %)" />
+
         <RadioButton
             android:id="@+id/fifteen_percent_tip"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Okay (15 %)" />
 
 
-
-
-
-
-   </RadioGroup>
+    </RadioGroup>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
