@@ -28,4 +28,12 @@
         app:layout_constraintTop_toBottomOf="@id/cost_of_service"
         tools:ignore="MissingConstraints,UnknownId" />
 
+    <RadioGroup
+        android:id="@+id/tip_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        tools:ignore="MissingConstraints"
+    />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
