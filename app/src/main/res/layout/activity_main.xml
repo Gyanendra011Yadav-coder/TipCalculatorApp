@@ -42,19 +42,22 @@
             android:id="@+id/twenty_percent_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Amazing (20 %)" />
+            android:text="Amazing (20 %)"
+            tools:ignore="HardcodedText" />
 
         <RadioButton
             android:id="@+id/eighteen_percent_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Good (18 %)" />
+            android:text="Good (18 %)"
+            tools:ignore="HardcodedText" />
 
         <RadioButton
             android:id="@+id/fifteen_percent_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Okay (15 %)" />
+            android:text="Okay (15 %)"
+            tools:ignore="HardcodedText" />
 
 
     </RadioGroup>
