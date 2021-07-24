@@ -35,8 +35,7 @@
         app:layout_constraintTop_toBottomOf="@+id/service_question"
         android:layout_constraintStart_toStartOf="parent"
         android:checkedButton="@+id/twenty_percent_tip"
-        android:orientation="vertical"
-       >
+        android:orientation="vertical">
 
         <RadioButton
             android:id="@+id/twenty_percent_tip"
